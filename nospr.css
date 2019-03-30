@@ -134,39 +134,3 @@ li:nth-child(6) {
   overflow: hidden;
   clip: rect(1px 1px 1px 1px);
 }
-
-footer {
-  background: #232323;
-  clear: left;
-  text-align: center;
-  color: white;
-}
-.my-name {
-  font-weight: 900;
-}
-.footer__social-button {
-  border: none;
-  background: none;
-  outline: none;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  margin-right: 10px;
-  margin-left: 10px;
-  transition: transform 0.7s;
-  -webkit-transition: transform 0.7s;
-  -moz-transition: transform 0.7s;
-}
-.footer__social-button:hover {
-  cursor: pointer;
-  background-color: #4682b4;
-}
-.footer__social-button:hover > i {
-  transition: transform 0.7s;
-  -webkit-transition: transform 0.7s;
-  -moz-transition: transform 0.7s;
-  color: #232323;
-}
-.footer__social-icon {
-  color: #4682b4;
-}
